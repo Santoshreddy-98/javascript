@@ -18,7 +18,7 @@ let five=()=>{
     let tag_Ref=document.getElementById("b")
         tag_Ref.style.backgroundColor='green'
 }
-let six=()=>{
-    let tag_Ref=document.getElementById("c")
-        tag_Ref.style.backgroundColor='palevioletred'
+onblurFunction=()=> {
+     x = document.getElementById("c");
+    x.value = x.value.toUpperCase();
 }
